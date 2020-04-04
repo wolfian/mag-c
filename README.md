@@ -1,3 +1,16 @@
 # mag-c
 My Amateur Gaming Collection (using ncurses in C++)
-Added a makefile for easy compilation. Just make you've got ncurses library on your system!
+
+Just a little side project I did, when I was getting bored at home during holidays due to Internet ban in my region as per government order. 
+
+Note: Make sure you've got <a href="https://invisible-island.net/ncurses/announce.html">ncurses</a> library in your system.
+
+I've added makefile for easy installation.
+Just run 
+<addr> make
+in the respective directory.
+
+If you it doesn't work, you might need to install build essential / development tools / it's equivalent for your distribution.
+
+Btw, compilation command goes like
+<addr> g++ home.cpp -o home -lncurses
