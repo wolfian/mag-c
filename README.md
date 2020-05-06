@@ -3,6 +3,12 @@
 
 Just a little side project I did, when I was getting bored at home during holidays due to Internet ban in my region as per government order. 
 
+It currently comprises of following games:
+1. Purr - the cake eater (try eat * as many times as possible within 100 steps)
+2. Tic-tac-toe
+3. Jumpman (jump over obstacles as many times as possible while it's speed is constantly increasing or decreasing)
+4. An unexpected journey (something like snakes and ladders)
+
 **Note:** Make sure you've got [ncurses](https://invisible-island.net/ncurses/announce.html) library in your system.
 
 I've added makefile for easy installation.
