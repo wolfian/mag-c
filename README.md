@@ -23,10 +23,10 @@ Btw, compilation command goes like
 
 Screenshots:
 <p float="left">
-  <img src="https://wolfian.github.io/mag-c/mag-c01.png" width="500" height="281"/>
-  <img src="https://wolfian.github.io/mag-c/mag-c02.png" width="500" height="281"/>
+  <img src="https://wolfian.github.io/mag-c/mag-c01.png" width="450" height="255"/>
+  <img src="https://wolfian.github.io/mag-c/mag-c02.png" width="450" height="255"/>
 </p>
 <p float="left">
-  <img src="https://wolfian.github.io/mag-c/mag-c03.png" width="500" height="281"/>
-  <img src="https://wolfian.github.io/mag-c/mag-c04.png" width="500" height="281"/>
+  <img src="https://wolfian.github.io/mag-c/mag-c03.png" width="450" height="255"/>
+  <img src="https://wolfian.github.io/mag-c/mag-c04.png" width="450" height="255"/>
 </p>
