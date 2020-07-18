@@ -21,14 +21,12 @@ If you it doesn't work, you might need to install build essential / development 
 Btw, compilation command goes like
 ```g++ home.cpp -o home -lncurses```
 
-Screenshot 1:
-![Screenshot 1](https://wolfian.github.io/mag-c/mag-c01.png)
-
-Screenshot 2:
-![Screenshot 2](https://wolfian.github.io/mag-c/mag-c02.png)
-
-Screenshot 3:
-![Screenshot 3](https://wolfian.github.io/mag-c/mag-c03.png)
-
-Screenshot 4:
-![Screenshot 4](https://wolfian.github.io/mag-c/mag-c04.png)
+Screenshots:
+<p float="left">
+  <img src="https://wolfian.github.io/mag-c/mag-c01.png" width="100" />
+  <img src="https://wolfian.github.io/mag-c/mag-c02.png" width="100" />
+</p>
+<p float="left">
+  <img src="https://wolfian.github.io/mag-c/mag-c03.png" width="100" />
+  <img src="https://wolfian.github.io/mag-c/mag-c04.png" width="100" />
+</p>
