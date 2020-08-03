@@ -3,6 +3,7 @@
 #include "tictactoe.cpp"
 #include "jumpman.cpp"
 #include "journey.cpp"
+#include "snake.cpp"
 
 int main(int argc, char const *argv[])
 {
@@ -21,7 +22,7 @@ int main(int argc, char const *argv[])
 	mvwprintw(outerwin, 10, 13, " MAG-C ");
 	wattroff(outerwin, A_REVERSE);
 	mvwprintw(outerwin, 12, 7, "W");
-	mvwprintw(outerwin, 13, 4, "A     D");
+	mvwprintw(outerwin, 13, 4, "A     D"); 
 	mvwprintw(outerwin, 14, 7, "S");
 	mvwprintw(returnkey, 1, 2, "<--");
 	mvwprintw(innerwin, 3, 1, "   Welcome to MAG-C!!!"); // MY AMATEUR GAMING COLLECTION
@@ -41,7 +42,7 @@ int main(int argc, char const *argv[])
 		initscr();
 		noecho();	
 
-		char names[5][24]={"PURR - THE CAKE EATER", "TIC-TAC-TOE", "JUMPMAN", "Unexpected Journey", "EXIT"};
+		char names[6][24]={"PURR - THE CAKE EATER", "TIC-TAC-TOE", "JUMPMAN", "SNAKE","Unexpected Journey", "EXIT"};
 
 		WINDOW * outerwin = newwin(18,32,0,1);
 		WINDOW * innerwin = newwin(9,26,1,4);
@@ -64,10 +65,10 @@ int main(int argc, char const *argv[])
 			static int i=0;
 			int h, j;
 			if (i==0)
-				h = 4;
+				h = 5;
 			else
 				h = i-1;
-			if (i==4)
+			if (i==5)
 				j = 0;
 			else
 				j = i+1;
@@ -120,11 +121,20 @@ int main(int argc, char const *argv[])
 					wclear(innerwin);
 					box(innerwin, 0, 0);
 					wrefresh(innerwin);
-					journey();
+					snake();
 					clear();
 					goto reincarnationArea;
 				}
 				else if (i==4)
+				{
+					wclear(innerwin);
+					box(innerwin, 0, 0);
+					wrefresh(innerwin);
+					journey();
+					clear();
+					goto reincarnationArea;
+				}
+				else if (i==5)
 				{
 					clear();
 					goto exitArea;
@@ -136,13 +146,13 @@ int main(int argc, char const *argv[])
 			{
 				i--;
 				if (i==-1)
-					i=4;
+					i=5;
 				beep();
 			}
 			if (temp==int('s') || temp ==int('S'))
 			{
 				i++;
-				if (i==5)
+				if (i==6)
 					i=0;
 				beep();
 			}
