@@ -22,6 +22,8 @@ If you it doesn't work, you might need to install build essential / development 
 Btw, compilation command goes like
 ```g++ home.cpp -o home -lncurses```
 
+Check code [here](https://github.com/wolfian/mag-c)!
+
 Screenshots:
 <p float="left">
   <img src="https://wolfian.github.io/mag-c/screenshots/mag-c01.png" width="450" height="255"/>
